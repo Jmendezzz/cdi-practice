@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #202121;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 180px;
+
+}
+
+nav>img{
+    width: 300px;
+    height: 150px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+main>h2{
+    margin-top: 30px;
+}
+.main__form {
+    -webkit-box-shadow: 3px 6px 5px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 3px 6px 5px 10px rgba(0,0,0,0.22);
+    box-shadow: 3px 6px 5px 10px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.form__button{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #4ed472;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    border:none;
+    cursor: pointer;
+    transition: all .5s;
+}
+.form__button:hover{
+    background-color: #4ca865;
+
+}
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#previsualizacion__container{
+    display: flex;
+    width: 300px;
+    height: 700px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin: 20px;
+    min-width: 300px;
+
+}
+#productos__container{
+    display: flex;
+    min-height: 700px;
+    margin:  0px 20px 130px 0px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 800px;
+    min-width: 300px;
+}
+.items__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.product__item{
+    margin: 10px;
+    width: 220px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    border: 1px solid lightgray;
+    cursor: pointer;
+
+}
+.product__item:hover{
+    background-color: #a4e7b5;
+}
+.product__item>img{
+
+    width: 200px;
+    height: 90px;
+}
+.previsualizacion__item{
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5s;
+}
+.previsualizacion__item:hover{
+    background-color: #af7878;
+}

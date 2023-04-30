@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+body{
+    background-color: #202121;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__form{
+    height: 700px;
+    width: 600px;
+}
+
+.flex__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.flex__column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form__input{
+
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid orange;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+
+}
+.flex__column>h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 48px;
+    color: orange;
+}
+.container__form>img{
+
+}
+.form{
+    height: 300px;
+    justify-content:space-between;
+}
+.form>button{
+    margin-top: 30px;
+    width: 190px;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid orange;
+    transition: all .5s;
+    cursor: pointer;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form>button:hover{
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+    outline: none;
+
+}
